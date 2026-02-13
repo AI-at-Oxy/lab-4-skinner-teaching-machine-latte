@@ -54,70 +54,57 @@ Choose a structure and be CONSISTENT across all your frames!
 # =============================================================================
 
 FRAMES = [
-    # Frame 1: Introduction
+    # Frame 1: Period
     {
-        "prompt": "In Python, we store data in _____. (Hint: they can vary!)",
-        "answer": "variables",
-        "feedback_correct": "Correct! Variables are containers for storing data.",
-        "feedback_incorrect": "Not quite. We store data in variables."
+        "prompt": "At the end of a declarative sentence, we use a _____. ",
+        “answer”: “.”,
+        "answer": "period",
+        "feedback_correct": "Correct! Periods are used to mark the end of a declarative sentence.",
+        "feedback_incorrect": "Not quite. We use the period to end a sentence."
     },
     
-    # Frame 2: Assignment operator
+    # Frame 2: Question Mark
     {
-        "prompt": "To assign a value to a variable, we use the _____ sign.",
-        "answer": "=",
-        "feedback_correct": "Yes! The = sign is the assignment operator.",
-        "feedback_incorrect": "Not quite. We use the = (equals) sign."
+        "prompt": "At the end of an interrogative sentence we use a ______. ",
+        "answer": "?",
+        “answer”: “question mark”,
+        "feedback_correct": "Yes! The question mark indicates a question has been asked.",
+        "feedback_incorrect": "Not quite. We use the question mark (?) sign."
     },
     
-    # Frame 3: Simple assignment
+    # Frame 3: Exclamation Point
     {
-        "prompt": "To store the number 5 in a variable called x, we write: x _____ 5",
-        "answer": "=",
-        "feedback_correct": "Correct! x = 5 assigns the value 5 to x.",
-        "feedback_incorrect": "Remember, we use = for assignment. So: x = 5"
+        "prompt": "At the end of an exclamatory sentence we use a ______.",
+        "answer": "exclamation point",
+        “answer”: “!”,
+        "feedback_correct": "Correct! The exclamation point indicates an exclamatory sentence has been made .",
+        "feedback_incorrect": "Remember, we use the exclamation point (!) to indicate a sentence with strong emotions has been made.”
     },
     
-    # Frame 4: String variables
+    # Frame 4: Complete the sentence
     {
-        "prompt": "Text data in Python is called a _____.",
-        "answer": "string",
-        "feedback_correct": "Yes! Strings are sequences of characters (text).",
-        "feedback_incorrect": "Text data is called a string."
+        "prompt": "Light takes about 8 minutes to travel from the Sun to Earth, but up to 40,000 years to travel from the Sun's core to its surface _",
+        "answer": ".",
+        "feedback_correct": "Yes! This sentence has a period (.) at the end of it.",
+        "feedback_incorrect": "Not quite. This sentence has a period (.) at the end of it."
     },
     
-    # Frame 5: String syntax
+    # Frame 5: Complete the sentence
     {
-        "prompt": "Strings must be surrounded by _____ or double quotes.",
-        "answer": "single",
-        "feedback_correct": "Correct! Both 'hello' and \"hello\" are valid strings.",
-        "feedback_incorrect": "Strings use single quotes or double quotes: 'hello' or \"hello\""
+        "prompt": "What time is it _",
+        "answer": "?",
+        "feedback_correct": "Correct! This sentence indicates a question is being asked, therefore the correct punctuation mark is (?).",
+        "feedback_incorrect": "Not quite. The punctuation at the end of this sentence should be (?). ""
     },
     
-    # Frame 6: Naming conventions
+    # Frame 6: Complete the sentence
     {
-        "prompt": "Variable names in Python cannot start with a _____.",
-        "answer": "number",
-        "feedback_correct": "Right! Variables can't start with numbers. 'var1' is ok, '1var' is not.",
-        "feedback_incorrect": "Variable names cannot start with a number."
+        "prompt": "Happy Birthday_",
+        "answer": "!",
+        "feedback_correct": "Right! This sentence would end with an exclamation point (!).",
+        "feedback_incorrect": "This sentence would end with an exclamation point (1)."
     },
-    
-    # Frame 7: Case sensitivity
-    {
-        "prompt": "In Python, 'Name' and 'name' are _____ variables. (same/different)",
-        "answer": "different",
-        "feedback_correct": "Correct! Python is case-sensitive.",
-        "feedback_incorrect": "Python is case-sensitive, so Name and name are different."
-    },
-    
-    # Frame 8: Print function
-    {
-        "prompt": "To display a variable's value, we use the _____ function.",
-        "answer": "print",
-        "feedback_correct": "Yes! print(x) displays the value of x.",
-        "feedback_incorrect": "We use the print() function to display values."
-    },
-]
+
 
 
 # =============================================================================
