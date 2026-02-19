@@ -56,9 +56,9 @@ Choose a structure and be CONSISTENT across all your frames!
 FRAMES = [
     # Frame 1: Period
     {
-        "prompt": "At the end of a declarative sentence, we use a _____. ",
-        “answer”: “.”,
-        "answer": "period",
+         "prompt": "At the end of a declarative sentence, we use a _____. ",
+        "answer": ".",
+        #"answer": "period",
         "feedback_correct": "Correct! Periods are used to mark the end of a declarative sentence.",
         "feedback_incorrect": "Not quite. We use the period to end a sentence."
     },
@@ -67,7 +67,7 @@ FRAMES = [
     {
         "prompt": "At the end of an interrogative sentence we use a ______. ",
         "answer": "?",
-        “answer”: “question mark”,
+        #“answer”: “question mark”,
         "feedback_correct": "Yes! The question mark indicates a question has been asked.",
         "feedback_incorrect": "Not quite. We use the question mark (?) sign."
     },
@@ -75,10 +75,10 @@ FRAMES = [
     # Frame 3: Exclamation Point
     {
         "prompt": "At the end of an exclamatory sentence we use a ______.",
-        "answer": "exclamation point",
-        “answer”: “!”,
+        #"answer": "exclamation point",
+        "answer": "!",
         "feedback_correct": "Correct! The exclamation point indicates an exclamatory sentence has been made .",
-        "feedback_incorrect": "Remember, we use the exclamation point (!) to indicate a sentence with strong emotions has been made.”
+        "feedback_incorrect": "Remember, we use the exclamation point (!) to indicate a sentence with strong emotions has been made."
     },
     
     # Frame 4: Complete the sentence
@@ -94,7 +94,7 @@ FRAMES = [
         "prompt": "What time is it _",
         "answer": "?",
         "feedback_correct": "Correct! This sentence indicates a question is being asked, therefore the correct punctuation mark is (?).",
-        "feedback_incorrect": "Not quite. The punctuation at the end of this sentence should be (?). ""
+        "feedback_incorrect": "Not quite. The punctuation at the end of this sentence should be (?). "
     },
     
     # Frame 6: Complete the sentence
@@ -104,6 +104,7 @@ FRAMES = [
         "feedback_correct": "Right! This sentence would end with an exclamation point (!).",
         "feedback_incorrect": "This sentence would end with an exclamation point (1)."
     },
+   ]
 
 
 
